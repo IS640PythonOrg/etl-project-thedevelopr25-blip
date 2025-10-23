@@ -33,7 +33,7 @@ jobs:
             gold_team_summary.parquet
             gold_player_performance.parquet
             gold_powerup_player.parquet
-            gold_world_liveslost.parquet
+            gold_world_difficulty.parquet
             gold_top_player_per_team.parquet
             gold_vehicle_counts.parquet
             gold_risk_assessment.parquet
