@@ -32,14 +32,14 @@ jobs:
             silver.parquet
             gold_team_summary.parquet
             gold_player_performance.parquet
-            gold_powerup_stats.parquet
+            gold_powerup_player.parquet
             gold_world_liveslost.parquet
             gold_top_player_per_team.parquet
-            gold_vehicle_popularity.parquet
-            gold_player_risk.parquet
-            gold_world_levels_completed.parquet
-            gold_team_enemy_hits.parquet
-            gold_team_coins_spent.parquet
+            gold_vehicle_counts.parquet
+            gold_risk_assessment.parquet
+            gold_world_completion.parquet
+            gold_hits_team.parquet
+            gold_spending_analysis.parquet
           )
           for pq in "${parquet_files[@]}"; do
             if [ ! -f "$PARQUET_DIR/$pq" ]; then
