@@ -26,17 +26,17 @@ jobs:
       - name: Execute Bronze Layer
         working-directory: ./Notebooks
         run: |
-          papermill ./Notebooks/Bronze_Mario.ipynb bronze_output.ipynb
+          papermill Bronze_Mario.ipynb bronze_output.ipynb
 
       - name: Execute Silver Layer
         working-directory: ./Notebooks
         run: |
-          papermill ./Notebooks/Silver_Mario.ipynb silver_output.ipynb
+          papermill Silver_Mario.ipynb silver_output.ipynb
 
       - name: Execute Gold Layer
         working-directory: ./Notebooks
         run: |
-          papermill ./Notebooks/Gold_Mario.ipynb gold_output.ipynb
+          papermill Gold_Mario.ipynb gold_output.ipynb
 
       - name: Check notebook execution status
         run: |
